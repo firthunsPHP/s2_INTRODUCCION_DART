@@ -1,0 +1,13 @@
+Final cuando la asignas no la puedes modificar, sabiendo o no su valor al momento de su compilación.
+
+Const tiene algo más de lógica detrás, por ejemplo no puedes usarla si a la hora de compilarla no sabes
+ su valor. Además si tienes una colección de const, todo lo que haya dentro sigue siéndolo, no así con un final.
+
+
+Te dejo dos links adicionales, uno del propio Dart y otro de stackoverflow donde hay ejemplos:
+
+https://news.dartlang.org/2012/06/const-static-final-oh-my.html
+
+https://stackoverflow.com/questions/50431055/what-is-the-difference-in-between-const-and-final-keyword-in-dart
+
+
