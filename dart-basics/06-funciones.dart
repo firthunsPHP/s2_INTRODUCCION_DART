@@ -12,6 +12,9 @@ void main() {
 
   saludar5( mensaje: 'Hi!', nombre: nombre);
 
+   print( esImpar(3));
+  print(esPar(8));
+
 }
 
 void saludar(String nombre ){
@@ -37,3 +40,16 @@ void saludar5( {
   print('Saludor 5');
   print('$mensaje $nombre ');
 }
+
+
+bool esPar( int numero ){
+  return numero % 2 == 0;
+}
+// Notación abreviada
+/*
+NO es necesario establcer el tipo de retorno y en el caso de que solo contenga una linea , se pueden
+expresar de la siguiente manera
+ */
+
+esImpar(int numero) => numero %2 != 0;
+
